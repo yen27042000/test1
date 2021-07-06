@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius:10px;
+  size: 16px;
+}
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+  border-radius:10px;
+}
